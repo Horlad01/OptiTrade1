@@ -1,0 +1,46 @@
+<div class="form-container">
+  <h2>Login</h2>
+  <link rel="stylesheet" type="text/css" href="me.css">
+  <form>
+    <div>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <button type="submit">Login</button>
+  </form>
+  <button id="show-sign-up" onclick="showSignUp()">Sign Up</button>
+  <div class="sign-up-form">
+    <h2>Sign Up</h2>
+    <form>
+      <div>
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+  <button id="show-modal">I Agree to the Terms and Conditions</button>
+  <div id="modal">
+    <div id="modal-content">
+      <h2>Terms and Conditions</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu magna ut orci mollis laoreet. Aenean vel orci eget augue aliquam vulputate. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed pharetra arcu vitae nisi aliquam, sed laoreet odio cursus.</p>
+      <button id="close-modal" onclick="hideModal()">Close</button>
+    </div>
+  </div>
+</div>
